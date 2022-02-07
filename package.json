@@ -1,0 +1,25 @@
+{
+  "name": "module11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexRedov/module11_homework.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Alex Krasnov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexRedov/module11_homework/issues"
+  },
+  "homepage": "https://github.com/AlexRedov/module11_homework#readme",
+  "devDependencies": {
+    "jest": "^27.5.0"
+  }
+}
