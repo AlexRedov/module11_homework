@@ -1,0 +1,93 @@
+PS C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework> npm i --save-dev babel-jest @babel/core @babel/cli @babel/preset-env
+npm WARN rm not removing C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework\node_modules\.bin\semver.cmd as it wasn't installed by C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework\node_modules\semver
+npm WARN rm not removing C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework\node_modules\.bin\semver as it wasn't installed by C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework\node_modules\semver
+npm WARN module11@1.0.0 No description
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.2 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ @babel/preset-env@7.16.11
++ @babel/cli@7.17.0
++ @babel/core@7.17.2
++ babel-jest@27.5.1
+added 11 packages from 1 contributor, removed 9 packages, updated 432 packages and audited 444 packages in 49.743s
+
+32 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+PS C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework> npm test definePrime
+
+> module11@1.0.0 test C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework
+> jest "definePrime"
+
+ FAIL  src/definePrime.test.js
+  ? Test suite failed to run
+
+    Cannot find module '@babel/preset-typescript'
+    Require stack:
+    - C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework\node_modules\@babel\core\lib\config\files\plugins.js
+    - C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework\node_modules\@babel\core\lib\config\files\index.js
+    - C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework\node_modules\@babel\core\lib\index.js
+    - C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework\node_modules\jest-snapshot\build\InlineSnapshots.js
+    - C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework\node_modules\jest-snapshot\build\State.js
+    - C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework\node_modules\jest-snapshot\build\index.js
+    - C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework\node_modules\jest-runtime\build\index.js
+    - C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework\node_modules\@jest\core\build\cli\index.js
+    - C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework\node_modules\@jest\core\build\jest.js
+    - C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework\node_modules\jest\node_modules\jest-cli\build\cli\index.js
+    - C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework\node_modules\jest\node_modules\jest-cli\bin\jest.js
+    - C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework\node_modules\jest\bin\jest.js
+
+      at tryRequireResolve (node_modules/@babel/core/lib/config/files/plugins.js:157:9)
+      at resolveStandardizedNameForRequrie (node_modules/@babel/core/lib/config/files/plugins.js:195:19)
+      at sync (node_modules/@babel/core/lib/config/files/plugins.js:224:12)
+      at sync (node_modules/gensync/index.js:182:19)
+      at node_modules/gensync/index.js:210:24
+      at resolvePreset (node_modules/@babel/core/lib/config/files/plugins.js:87:17)
+          at resolvePreset.next (<anonymous>)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        2.798 s
+Ran all test suites matching /definePrime/i.
+npm ERR! Test failed.  See above for more details.
+PS C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework> npm test indexLearn
+
+> module11@1.0.0 test C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework
+> jest "indexLearn"
+
+ FAIL  src/indexLearn.test.js
+  ? Test suite failed to run
+
+    Cannot find module '@babel/preset-typescript'
+    Require stack:
+    - C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework\node_modules\@babel\core\lib\config\files\plugins.js
+    - C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework\node_modules\@babel\core\lib\config\files\index.js
+    - C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework\node_modules\@babel\core\lib\index.js
+    - C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework\node_modules\jest-snapshot\build\InlineSnapshots.js
+    - C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework\node_modules\jest-snapshot\build\State.js
+    - C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework\node_modules\jest-snapshot\build\index.js
+    - C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework\node_modules\jest-runtime\build\index.js
+    - C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework\node_modules\@jest\core\build\cli\index.js
+    - C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework\node_modules\@jest\core\build\jest.js
+    - C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework\node_modules\jest\node_modules\jest-cli\build\cli\index.js
+    - C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework\node_modules\jest\node_modules\jest-cli\bin\jest.js
+    - C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework\node_modules\jest\bin\jest.js
+
+      at tryRequireResolve (node_modules/@babel/core/lib/config/files/plugins.js:157:9)
+      at resolveStandardizedNameForRequrie (node_modules/@babel/core/lib/config/files/plugins.js:195:19)
+      at sync (node_modules/@babel/core/lib/config/files/plugins.js:224:12)
+      at sync (node_modules/gensync/index.js:182:19)
+      at node_modules/gensync/index.js:210:24
+      at resolvePreset (node_modules/@babel/core/lib/config/files/plugins.js:87:17)
+          at resolvePreset.next (<anonymous>)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        1.634 s
+Ran all test suites matching /indexLearn/i.
+npm ERR! Test failed.  See above for more details.
+PS C:\Users\Alex\SkillFactory\WebProjects\Git\module11_homework>

@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/AlexRedov/module11_homework#readme",
   "devDependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.17.2",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
     "jest": "^27.5.0"
   }
 }
